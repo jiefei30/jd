@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  body{
+    max-width: 1080px;
+    margin: 0 auto;
+    min-width: 320px;
+    line-height: 1.5;
+    height:auto;
+  }
+  
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width:100%;
+    height:auto;
+  }
+  html{
+    width:100%;
+    height:auto;
+  }
+  ul{list-style:none}
+  a{text-decoration: none;} 
+  img{vertical-align:top;border:none}
+   
+  .clearf:after,
+  .clearf:before{
+      content:"";
+      display:block;
+      clear:both;
+  }
